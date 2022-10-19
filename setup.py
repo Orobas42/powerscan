@@ -8,7 +8,6 @@ setuptools.setup(
     name="powerscan",
     version="0.1",
     author="vP3nguin",
-    author_email="leon@vp3ngu.in",
     url="https://github.com/vP3nguin/powerscan",
     keywords=["ip", "subnet", "scan", "ddos", "amplification", "brute-force"],
     include_package_data=True,
