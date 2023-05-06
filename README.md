@@ -1,6 +1,6 @@
 # ***DEPRECATED*** PowerScan
 
-		                  PowerScan - Version 0.9.3b Beta                  
+		                  PowerScan - Version 0.9.3b              
 	  _____________________________________________________________________________   
 	 |                  |                    |                  |                  |  
 	 |     IP Range     |       Ports        |     Progress     |   Open Servers   |  
@@ -40,8 +40,6 @@
 
 <b>Time Results:</b>
 
-	[CPU: octa core | Network: 1Mbps Upstream]
-
 	# powerscan -i 10.10.0.0/* -p 80 --threads=64 --processes=32 --timeout=0.5 --noping
 	 _______________________________________________
 	|-----SUBNET-----|----TIME----|------IP'S-------|
@@ -61,13 +59,12 @@
 	
 <b>Dependencies:</b>
 
-	python version 2.7   - https://www.python.org/downloads/
+	python 2.7           - https://www.python.org/downloads/
 	module scapy         - https://github.com/secdev/scapy.git
 	module netaddr       - https://github.com/drkjam/netaddr.git
 	module numpy         - https://github.com/numpy/numpy.git
 	module paramiko      - https://github.com/paramiko/paramiko.git
 	module python-nmap   - https://bitbucket.org/xael/python-nmap
-	SYSTEM_PATH          - /dev/null
 
 	**you can also use pip to install most dependencies
 
